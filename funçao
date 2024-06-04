@@ -6,11 +6,11 @@ function soma(V1 = 0,V2 = 0){
 function nomeidade(nome,idade){
     console.log(`nome:${nome} - idade:${idade}`);
 }
-nomeidade("madu","17")
-nomeidade("17","madu")
+nomeidade("vilson","17")
+nomeidade("17","vilson")
 
 console.log(soma(9));
-nomeidade("board");
+nomeidade("souza");
 
 console.log(multiplicacao(1358,86));
 function multiplicacao(V1 = 0,V2 = 0){
