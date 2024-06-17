@@ -1,0 +1,10 @@
+istafrutas = ["morango", "uva", "manga"]
+fruta = "morango"
+print(listafrutas[2])
+print(fruta[0])
+print(listafrutas[2][0])
+listafrutas.append("pera")
+print(listafrutas)
+listafrutas.remove("manga")
+print(listafrutas)
+listafrutas.sort()
