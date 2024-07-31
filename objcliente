@@ -1,0 +1,16 @@
+const pessoa =  {
+    nome: "mato",
+    profissão: "barbeiro"
+
+}
+console.log(pessoa.nome)
+
+console.log(pessoa.telefone)
+pessoa.telefone = "41 99950-3585"
+console.log(pessoa)
+
+const novaPessoa = {
+    nome:'gulio'
+}
+
+pessoa=novaPessoa
