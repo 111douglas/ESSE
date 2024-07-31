@@ -1,0 +1,18 @@
+const objcliente = {
+    ID: 5,
+    nome:"florentino",
+    idade: 29,
+    cpf:"123.456.643-00"
+}
+
+console.log(`nome: ${objcliente.nome}`)
+console.log(`idade: ${objcliente['idade']}`)
+console.log(`cpf: ${objcliente['cpf']}`)
+
+const chaves = ["nome", "idade", "cpf"]
+
+chaves.forEach((chave) => {
+    console.log(`chave ${chave} valor: ${objcliente[chave]}`)
+})
+
+
