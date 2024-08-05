@@ -1,0 +1,12 @@
+const cliente = {
+    nome: "linguica",
+    idade: 45,
+    email: "linguica.com",
+    telefone: ["90 3853-234", "90 34532-2454"]
+}
+
+console.log(cliente)
+
+console.log(cliente.telefone)
+
+console.log(cliente.telefone[1])
