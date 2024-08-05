@@ -11,7 +11,7 @@ def saldo(conta):
 def deposito(conta,valor):
     conta += valor
 
-conta00= cria_conta(1234, "Kauany", 50.0, 100.0)
-conta01= cria_conta(4321, "Suonski", 50.0, 100.0)
+conta00= cria_conta(1234, "Douglas", 50.0, 100.0)
+conta01= cria_conta(4321, "Soares", 50.0, 100.0)
 saldo(conta00)
 saldo(conta01)
