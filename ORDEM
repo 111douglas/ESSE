@@ -1,0 +1,17 @@
+const usuarios = [
+    {nome: "menphis", idade: 30},
+    {nome: "depay", idade: 30},
+    {nome:"hugo", idade: 24},
+];
+//Encontrado um objeto
+const men = usuarios.find(usurio=> usuarios.nome==="menphis");
+
+console.log(men);
+
+//Filtrando objetos
+const usuariosAcimade30 = usuarios.filter(usuario=>usuario.idade > 30);
+console.log(usuariosAcimade30);
+
+//Ordenando objetos por idade
+const usuariosOrdenadosporidade = usuarios.sort((a,b)=> a.idade-b.idade);
+console.log(usuariosOrdenadosporidade);
